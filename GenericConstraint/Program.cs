@@ -24,7 +24,7 @@ namespace GenericConstraint
     {
         public T[] items = new T[5];
         int _index = 0;
-
+        
         public void AddItem(T bags)
         {
             items[_index++] = bags;
